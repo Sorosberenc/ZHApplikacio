@@ -1,0 +1,102 @@
+﻿@page "/zhlist"
+@using System.IO
+
+<h3>Mentett ZH-k</h3>
+
+@if (ZhFajlok.Count == 0)
+{
+    <p><strong>Nincsenek mentett ZH-k.</strong></p>
+}
+else
+{
+        <ul>
+        @foreach (var zh in ZhFajlok)
+        {
+                    <li>
+                        
+                        <div class="zh-content">
+                    @foreach (var sor in zh.Content.Split('\n'))
+                    {
+                        if (!string.IsNullOrWhiteSpace(sor))
+                        {
+                            var index = sor.IndexOf(":");
+                            if (index != -1)
+                            {
+                                                    <p>
+                                                        <strong>@sor.Substring(0, index + 1)</strong>
+                                    @sor.Substring(index + 1)
+                                                    </p>
+                            }
+                            else
+                            {
+                                                    <p>@sor</p>
+                            }
+                        }
+                    }
+                        </div>
+                        <button @onclick="() => TorolZh(zh.FilePath)">Törlés</button>
+                    </li>
+        }
+        </ul>
+}
+
+@if (!string.IsNullOrEmpty(Uzenet))
+{
+        <p>@Uzenet</p>
+}
+
+@code {
+    private List<ZhFile> ZhFajlok = new();
+    private string Uzenet = "";
+
+    protected override void OnInitialized()
+    {
+        BetoltZhFajlok();
+    }
+
+    private void BetoltZhFajlok()
+    {
+        ZhFajlok.Clear();
+
+        string folderPath = Path.Combine(FileSystem.AppDataDirectory, "Zhk");
+        if (!Directory.Exists(folderPath))
+        {
+            Uzenet = "A Zhk mappa nem létezik.";
+            return;
+        }
+
+        foreach (var file in Directory.GetFiles(folderPath, "*.txt"))
+        {
+            ZhFajlok.Add(new ZhFile
+                {
+                    FilePath = file,
+                    FileName = Path.GetFileName(file),
+                    Content = File.ReadAllText(file)
+                });
+        }
+    }
+
+    private void TorolZh(string filePath)
+    {
+        try
+        {
+            if (File.Exists(filePath))
+            {
+                File.Delete(filePath);
+                Uzenet = $"Törölve: {Path.GetFileName(filePath)}";
+                BetoltZhFajlok(); // Frissítés a törlés után
+            }
+        }
+        catch (Exception ex)
+        {
+            Uzenet = $"Hiba történt: {ex.Message}";
+        }
+    }
+
+    private class ZhFile
+    {
+        public string FilePath { get; set; } = "";
+        public string FileName { get; set; } = "";
+        public string Content { get; set; } = "";
+    }
+}

@@ -1,0 +1,78 @@
+﻿@page "/zhform"
+@using System.IO
+
+<h3>ZH Adatfelvétel</h3>
+
+<div>
+    <label>Tárgy neve:</label>
+    <input @bind="TargyNev" />
+</div>
+
+<div>
+    <label>Típus:</label>
+    <select @bind="Tipus">
+        @foreach (var tipus in Tipusok)
+        {
+            <option value="@tipus">@tipus</option>
+        }
+    </select>
+</div>
+
+<div>
+    <label>Időpont:</label>
+    <input type="datetime-local" @bind="Idopont" />
+</div>
+
+<div>
+    <label>Megjegyzés:</label>
+    <textarea @bind="Megjegyzes"></textarea>
+</div>
+
+<button @onclick="MentésFájlba">Mentés</button>
+
+@if (!string.IsNullOrEmpty(Uzenet))
+{
+    <p>@Uzenet</p>
+}
+
+@code {
+    private string TargyNev = "";
+    private string Tipus = "Coospace teszt";
+    private DateTime Idopont = DateTime.Now;
+    private string Megjegyzes = "";
+    private string Uzenet = "";
+
+    private List<string> Tipusok = new()
+    {
+        "Coospace teszt",
+        "Kis Zh",
+        "Nagy Zh",
+        "Vizsga"
+    };
+
+    private async Task MentésFájlba()
+    {
+        try
+        {
+            // A fájlmentési mappa beállítása (Zhk mappa)
+            string folderPath = Path.Combine(FileSystem.AppDataDirectory, "Zhk");
+            Directory.CreateDirectory(folderPath); // Ha nem létezik, létrehozza
+
+            // Fájl neve: tárgy_neve_YYYYMMDD_HHMM.txt
+            string fileName = $"{TargyNev}_{Idopont:yyyyMMdd_HHmm}.txt";
+            string filePath = Path.Combine(folderPath, fileName);
+
+            // Mentendő tartalom
+            string tartalom = $"Tárgy: {TargyNev}\nTípus: {Tipus}\nIdőpont: {Idopont}\nMegjegyzés: {Megjegyzes}";
+
+            // Fájl írása
+            await File.WriteAllTextAsync(filePath, tartalom);
+
+            Uzenet = $"Sikeresen mentve: {fileName}";
+        }
+        catch (Exception ex)
+        {
+            Uzenet = $"Hiba történt: {ex.Message}";
+        }
+    }
+}
