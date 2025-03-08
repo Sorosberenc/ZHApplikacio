@@ -19,8 +19,8 @@
 </div>
 
 <div>
-    <label>Időpont:</label>
-    <input type="datetime-local" @bind="Idopont" />
+    <label>Dátum:</label>
+    <input type="date" @bind="Idopont" />
 </div>
 
 <div>
@@ -38,7 +38,7 @@
 @code {
     private string TargyNev = "";
     private string Tipus = "Coospace teszt";
-    private DateTime Idopont = DateTime.Now;
+    private DateTime Idopont = DateTime.Now;  // Using DateTime directly
     private string Megjegyzes = "";
     private string Uzenet = "";
 
@@ -58,12 +58,12 @@
             string folderPath = Path.Combine(FileSystem.AppDataDirectory, "Zhk");
             Directory.CreateDirectory(folderPath); // Ha nem létezik, létrehozza
 
-            // Fájl neve: tárgy_neve_YYYYMMDD_HHMM.txt
-            string fileName = $"{TargyNev}_{Idopont:yyyyMMdd_HHmm}.txt";
+            // Fájl neve: tárgy_neve_YYYYMMDD.txt
+            string fileName = $"{TargyNev}_{Idopont:yyyyMMdd}.txt";
             string filePath = Path.Combine(folderPath, fileName);
 
             // Mentendő tartalom
-            string tartalom = $"Tárgy: {TargyNev}\nTípus: {Tipus}\nIdőpont: {Idopont}\nMegjegyzés: {Megjegyzes}";
+            string tartalom = $"Tárgy: {TargyNev}\nTípus: {Tipus}\nDátum: {Idopont:yyyy-MM-dd}\nMegjegyzés: {Megjegyzes}";
 
             // Fájl írása
             await File.WriteAllTextAsync(filePath, tartalom);
