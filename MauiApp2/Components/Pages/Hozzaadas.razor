@@ -1,6 +1,6 @@
 ﻿@page "/zhform"
 @using System.IO
-
+<div class="fade-in">
 <h3>ZH Adatfelvétel</h3>
 
 <div>
@@ -9,7 +9,7 @@
 </div>
 
 <div>
-    <label>Típus:</label>
+    <label>Típus:</label> <br />
     <select @bind="Tipus">
         @foreach (var tipus in Tipusok)
         {
@@ -17,7 +17,7 @@
         }
     </select>
 </div>
-
+<br />
 <div>
     <label>Dátum:</label>
     <input type="date" @bind="Idopont" />
@@ -29,7 +29,7 @@
 </div>
 
 <button @onclick="MentésFájlba">Mentés</button>
-
+</div>
 @if (!string.IsNullOrEmpty(Uzenet))
 {
     <p>@Uzenet</p>

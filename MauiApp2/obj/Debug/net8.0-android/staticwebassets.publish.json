@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "weq4iDccflcTdgVS6BXXeczTKh2YRor7CzmddlvIQHQ=",
+  "Hash": "Xfx6caOgj7L3tVt+XBz3vPaFtnrRgEg6xX6wKlMQYAo=",
   "Source": "MauiApp2",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "hbbzyl14k4",
-      "Integrity": "8/XjHl1229OYLZa8G/QR1MIbumeugZcY88NqxOvaeQA=",
+      "Fingerprint": "gbo2wks461",
+      "Integrity": "nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\MauiApp2.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "hbbzyl14k4",
-      "Integrity": "8/XjHl1229OYLZa8G/QR1MIbumeugZcY88NqxOvaeQA=",
+      "Fingerprint": "gbo2wks461",
+      "Integrity": "nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\MauiApp2.bundle.scp.css"
@@ -120,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\wwwroot\\css\\site.css",
+      "SourceId": "MauiApp2",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "og0c5yeag0",
+      "Integrity": "WNrTvtgzF8Ft+yIOE8CvDQ5pwLrQa8I5XIE3UyKRybA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
       "Identity": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\wwwroot\\favicon.png",
@@ -412,6 +433,88 @@
       ]
     },
     {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WNrTvtgzF8Ft+yIOE8CvDQ5pwLrQa8I5XIE3UyKRybA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 11:19:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WNrTvtgzF8Ft+yIOE8CvDQ5pwLrQa8I5XIE3UyKRybA="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.og0c5yeag0.css",
+      "AssetFile": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1587"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WNrTvtgzF8Ft+yIOE8CvDQ5pwLrQa8I5XIE3UyKRybA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 11:19:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "og0c5yeag0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WNrTvtgzF8Ft+yIOE8CvDQ5pwLrQa8I5XIE3UyKRybA="
+        }
+      ]
+    },
+    {
       "Route": "favicon.ifv42okdf2.png",
       "AssetFile": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\wwwroot\\favicon.png",
       "Selectors": [],
@@ -586,7 +689,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "5650"
         },
         {
           "Name": "Content-Type",
@@ -594,11 +697,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8/XjHl1229OYLZa8G/QR1MIbumeugZcY88NqxOvaeQA=\""
+          "Value": "\"nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 16:45:47 GMT"
+          "Value": "Sun, 09 Mar 2025 11:16:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -608,12 +711,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8/XjHl1229OYLZa8G/QR1MIbumeugZcY88NqxOvaeQA="
+          "Value": "sha256-nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ="
         }
       ]
     },
     {
-      "Route": "MauiApp2.hbbzyl14k4.bundle.scp.css",
+      "Route": "MauiApp2.gbo2wks461.bundle.scp.css",
       "AssetFile": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\obj\\Debug\\net8.0-android\\scopedcss\\projectbundle\\MauiApp2.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -623,7 +726,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "5650"
         },
         {
           "Name": "Content-Type",
@@ -631,11 +734,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8/XjHl1229OYLZa8G/QR1MIbumeugZcY88NqxOvaeQA=\""
+          "Value": "\"nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 16:45:47 GMT"
+          "Value": "Sun, 09 Mar 2025 11:16:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -645,7 +748,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hbbzyl14k4"
+          "Value": "gbo2wks461"
         },
         {
           "Name": "label",
@@ -653,12 +756,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8/XjHl1229OYLZa8G/QR1MIbumeugZcY88NqxOvaeQA="
+          "Value": "sha256-nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ="
         }
       ]
     },
     {
-      "Route": "MauiApp2.hbbzyl14k4.styles.css",
+      "Route": "MauiApp2.gbo2wks461.styles.css",
       "AssetFile": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\MauiApp2.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -668,7 +771,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "5650"
         },
         {
           "Name": "Content-Type",
@@ -676,11 +779,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8/XjHl1229OYLZa8G/QR1MIbumeugZcY88NqxOvaeQA=\""
+          "Value": "\"nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 16:45:47 GMT"
+          "Value": "Sun, 09 Mar 2025 11:16:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -690,7 +793,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hbbzyl14k4"
+          "Value": "gbo2wks461"
         },
         {
           "Name": "label",
@@ -698,7 +801,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8/XjHl1229OYLZa8G/QR1MIbumeugZcY88NqxOvaeQA="
+          "Value": "sha256-nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ="
         }
       ]
     },
@@ -713,7 +816,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "5650"
         },
         {
           "Name": "Content-Type",
@@ -721,11 +824,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8/XjHl1229OYLZa8G/QR1MIbumeugZcY88NqxOvaeQA=\""
+          "Value": "\"nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 16:45:47 GMT"
+          "Value": "Sun, 09 Mar 2025 11:16:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -735,7 +838,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8/XjHl1229OYLZa8G/QR1MIbumeugZcY88NqxOvaeQA="
+          "Value": "sha256-nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ="
         }
       ]
     }

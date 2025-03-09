@@ -1,6 +1,6 @@
 ﻿@page "/zhlist"
 @using System.IO
-
+<div class="fade-in">
 <h3>Mentett ZH-k</h3>
 
 @if (ZhFajlok.Count == 0)
@@ -39,7 +39,7 @@ else
         }
         </ul>
 }
-
+</div>
 @if (!string.IsNullOrEmpty(Uzenet))
 {
         <p>@Uzenet</p>

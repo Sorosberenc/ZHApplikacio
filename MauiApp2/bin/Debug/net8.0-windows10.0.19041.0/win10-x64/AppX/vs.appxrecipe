@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-08T19:19:42.368</Modified>
+      <Modified>2025-03-09T11:21:32.343</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-03-08T19:19:42.272</Modified>
+      <Modified>2025-03-09T11:21:32.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp2.runtimeconfig.json">
       <PackagePath>MauiApp2.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp2.dll">
       <PackagePath>MauiApp2.dll</PackagePath>
-      <Modified>2025-03-08T19:19:42.081</Modified>
+      <Modified>2025-03-09T11:21:31.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp2.exe</PackagePath>
-      <Modified>2025-03-08T19:19:42.085</Modified>
+      <Modified>2025-03-09T11:21:31.473</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -65,6 +65,10 @@
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\wwwroot\css\bootstrap\bootstrap.min.css.map">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
       <Modified>2025-03-08T16:45:31.460</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\wwwroot\css\site.css">
+      <PackagePath>wwwroot\css\site.css</PackagePath>
+      <Modified>2025-03-09T11:19:45.224</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
@@ -304,7 +308,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp2.deps.json">
       <PackagePath>MauiApp2.deps.json</PackagePath>
-      <Modified>2025-03-08T19:19:42.220</Modified>
+      <Modified>2025-03-09T11:21:32.032</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Máté\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -660,7 +664,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\staticwebassets.build.endpoints.json">
       <PackagePath>MauiApp2.staticwebassets.endpoints.json</PackagePath>
-      <Modified>2025-03-08T16:45:47.539</Modified>
+      <Modified>2025-03-09T11:21:23.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Máté\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -676,11 +680,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\MauiApp2.styles.css">
       <PackagePath>wwwroot\MauiApp2.styles.css</PackagePath>
-      <Modified>2025-03-08T16:45:47.474</Modified>
+      <Modified>2025-03-09T11:21:23.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\MauiApp2.bundle.scp.css">
-      <PackagePath>wwwroot\MauiApp2.hbbzyl14k4.bundle.scp.css</PackagePath>
-      <Modified>2025-03-08T16:45:47.475</Modified>
+      <PackagePath>wwwroot\MauiApp2.gbo2wks461.bundle.scp.css</PackagePath>
+      <Modified>2025-03-09T11:21:23.047</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\Components\Layout\MainLayout.razor.css">
       <PackagePath>Components\Layout\MainLayout.razor.css</PackagePath>
@@ -688,7 +692,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\Components\Layout\NavMenu.razor.css">
       <PackagePath>Components\Layout\NavMenu.razor.css</PackagePath>
-      <Modified>2025-03-08T16:45:31.466</Modified>
+      <Modified>2025-03-09T11:18:07.624</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
