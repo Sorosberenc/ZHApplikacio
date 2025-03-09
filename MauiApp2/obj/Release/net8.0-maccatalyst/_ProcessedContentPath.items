@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Content Include="Resources\Raw\AboutAssets.txt" />
+    <Content Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-maccatalyst\scopedcss\bundle\MauiApp2.styles.css" />
+    <Content Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-maccatalyst\scopedcss\projectbundle\MauiApp2.bundle.scp.css" />
+    <Content Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\wwwroot\css\app.css" />
+    <Content Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\wwwroot\css\bootstrap\bootstrap.min.css" />
+    <Content Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\wwwroot\css\bootstrap\bootstrap.min.css.map" />
+    <Content Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\wwwroot\css\site.css" />
+    <Content Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\wwwroot\favicon.png" />
+    <Content Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\wwwroot\index.html" />
+  </ItemGroup>
+</Project>

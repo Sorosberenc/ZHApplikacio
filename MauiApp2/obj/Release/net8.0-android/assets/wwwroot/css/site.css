@@ -1,0 +1,74 @@
+﻿.top-row {
+    background-color: black; /* Világoskék háttérszín */
+    padding: 1rem; /* Belső margó a szép elrendezéshez */
+}
+
+    .top-row a {
+        color: black; /* Fehér szöveg a jó kontrasztért */
+        text-decoration: none; /* Aláhúzás eltávolítása a linkről */
+        font-weight: bold; /* Vastagított betűk kiemeléshez */
+    }
+
+        .top-row a:hover {
+            color: #333333; /* Szöveg színváltás hover állapotban */
+        }
+
+/* Alapértelmezett stílus mobil nézethez */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* A teljes nézetablak magassága */
+    background: linear-gradient(to top, #001f3f, #b0c4de);
+    color: white;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+}
+
+/* Asztali nézet */
+@media(min-width: 768px) {
+    .container {
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+/* Nagyobb eszközökhöz (pl. desktop) */
+@media(min-width: 1024px) {
+    .container {
+        width: 50%;
+    }
+}
+/*Imput mezők */
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+    input:focus, textarea:focus {
+        outline: none;
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    }
+/*Animációk */
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
