@@ -423,6 +423,3 @@ D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Debug\net8.0-windows10.0
 D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.IO.RecyclableMemoryStream.dll
-D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
-D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll

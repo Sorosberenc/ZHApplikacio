@@ -1,4 +1,33 @@
-﻿.top-row {
+﻿/*Zh kilistázás doboz*/
+.card {
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+}
+/*Törlés gombok*/
+.torol {
+    background-color: #e74c3c; /* piros háttér */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    .torol:hover {
+        background-color: #c0392b; /* sötétebb piros hoverre */
+        transform: scale(1.05);
+    }
+
+    .torol:active {
+        transform: scale(0.98);
+        background-color: #a93226; /* kattintás közben */
+    }
+
+.top-row {
     background-color: black; /* Világoskék háttérszín */
     padding: 1rem; /* Belső margó a szép elrendezéshez */
 }
@@ -20,10 +49,13 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh; /* A teljes nézetablak magassága */
-    background: linear-gradient(to top, #001f3f, #b0c4de);
-    color: white;
+    /* background: linear-gradient(to top, #001f3f, #b0c4de);*/
+    background: #f0f6fc;
+    color: black;
 }
-
+h1 {
+    text-align:center;
+}
 .container {
     width: 100%;
     padding: 20px;

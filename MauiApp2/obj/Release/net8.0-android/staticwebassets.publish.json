@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pftiaAP7WWi30ppANEavGDnuvExh4oaVWHvbB+dkSzk=",
+  "Hash": "kxdJv6vFY485ChDMaEOC44oziUywbo2DB9zqqwbT6ys=",
   "Source": "MauiApp2",
   "BasePath": "/",
   "Mode": "Root",
@@ -136,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "og0c5yeag0",
-      "Integrity": "WNrTvtgzF8Ft+yIOE8CvDQ5pwLrQa8I5XIE3UyKRybA=",
+      "Fingerprint": "5kjypa8bnx",
+      "Integrity": "ewcsHMqoeB+ekvrAGXUnCa1o9eUo8a70TeYUJpPhu6s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -433,6 +433,51 @@
       ]
     },
     {
+      "Route": "css/site.5kjypa8bnx.css",
+      "AssetFile": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ewcsHMqoeB+ekvrAGXUnCa1o9eUo8a70TeYUJpPhu6s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 12 Mar 2025 14:48:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5kjypa8bnx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ewcsHMqoeB+ekvrAGXUnCa1o9eUo8a70TeYUJpPhu6s="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -443,7 +488,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1587"
+          "Value": "2126"
         },
         {
           "Name": "Content-Type",
@@ -451,11 +496,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WNrTvtgzF8Ft+yIOE8CvDQ5pwLrQa8I5XIE3UyKRybA=\""
+          "Value": "\"ewcsHMqoeB+ekvrAGXUnCa1o9eUo8a70TeYUJpPhu6s=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 14:11:26 GMT"
+          "Value": "Wed, 12 Mar 2025 14:48:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -465,52 +510,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WNrTvtgzF8Ft+yIOE8CvDQ5pwLrQa8I5XIE3UyKRybA="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.og0c5yeag0.css",
-      "AssetFile": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1587"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WNrTvtgzF8Ft+yIOE8CvDQ5pwLrQa8I5XIE3UyKRybA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 14:11:26 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "og0c5yeag0"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WNrTvtgzF8Ft+yIOE8CvDQ5pwLrQa8I5XIE3UyKRybA="
+          "Value": "sha256-ewcsHMqoeB+ekvrAGXUnCa1o9eUo8a70TeYUJpPhu6s="
         }
       ]
     },

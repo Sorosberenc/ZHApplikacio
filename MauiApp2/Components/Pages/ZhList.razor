@@ -1,7 +1,30 @@
 ﻿@page "/zhlist"
 @using System.IO
+<head>
+    <style>
+        .rendez-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .rendez-select {
+            text-align:center;
+            margin: 0 auto 20px auto;
+            display: block;
+            padding: 6px 12px;
+            font-size: 14px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+    </style>
+
+
+</head>
 <div class="fade-in">
-    <h3>Mentett ZH-k</h3>
+    <h1>Mentett ZH-k</h1>
+
+    
+
 
     @if (ZhFajlok.Count == 0)
     {
@@ -9,10 +32,18 @@
     }
     else
     {
+        <div class="rendez-container">
+        <label for="rendezesSelect"><strong>Rendezés dátum szerint:</strong></label>
+        <select id="rendezesSelect" @onchange="ValtozottRendezes" class="rendez-select">
+            <option value="novekvo">Növekvő</option>
+            <option value="csokkeno">Csökkenő</option>
+        </select>
+        </div>
         <ul>
             @foreach (var zh in ZhFajlok)
             {
-                <li>
+                <li class="card">
+                   
                     <div class="zh-content">
                         @foreach (var sor in zh.Content.Split('\n'))
                         {
@@ -31,11 +62,15 @@
                                     <p>@sor</p>
                                 }
                             }
+                           
                         }
                     </div>
-                    <button @onclick="() => TorolZh(zh.FilePath)">Törlés</button>
+                    <button class="torol" @onclick="() => TorolZh(zh.FilePath)">Törlés</button>
+                    
                 </li>
+                <br />
             }
+            
         </ul>
     }
 </div>
@@ -48,7 +83,7 @@
 @code {
     private List<ZhFile> ZhFajlok = new();
     private string Uzenet = "";
-
+    private string RendezesiIrany = "novekvo";
     protected override void OnInitialized()
     {
         BetoltZhFajlok();
@@ -124,8 +159,32 @@
         {
             Uzenet = $"Hiba történt: {ex.Message}";
         }
+   
+
+   
+
+    }
+    private void ValtozottRendezes(ChangeEventArgs e)
+    {
+        RendezesiIrany = e.Value?.ToString() ?? "novekvo";
+        RendezDatumSzerint();
     }
 
+    private void RendezDatumSzerint()
+    {
+        if (RendezesiIrany == "csokkeno")
+        {
+            ZhFajlok = ZhFajlok
+                .OrderByDescending(z => GetDateFromContent(z.Content))
+                .ToList();
+        }
+        else
+        {
+            ZhFajlok = ZhFajlok
+                .OrderBy(z => GetDateFromContent(z.Content))
+                .ToList();
+        }
+    }
     private class ZhFile
     {
         public string FilePath { get; set; } = "";

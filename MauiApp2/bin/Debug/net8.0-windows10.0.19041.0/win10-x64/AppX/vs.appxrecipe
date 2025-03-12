@@ -9,7 +9,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.mauiapp2</PackageIdentityName>
-    <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
+    <PackageIdentityPublisher>CN=Máté</PackageIdentityPublisher>
     <IntermediateOutputPath>D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -19,36 +19,36 @@
     <WindowsSdkPath>
     </WindowsSdkPath>
     <LayoutDir>D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
-    <RegisteredManifestChecksum>0F095901B12E34A03627922DCA760CAE54A53B994165E66BF60B4510EDCCD925</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>com.companyname.mauiapp2_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>com.companyname.mauiapp2_9zz4h110yvjzm!App</RegisteredUserModeAppID>
+    <RegisteredManifestChecksum>C52A0CC7C2E6A4693A6EFFE812E6B7CD28F98E09408BB2834CC5EA27690D4D65</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.companyname.mauiapp2_1.0.0.1_x64__383y8kqbkdy5g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.companyname.mauiapp2_383y8kqbkdy5g!App</RegisteredUserModeAppID>
     <RegisteredPackageID>com.companyname.mauiapp2</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=User Name</RegisteredPackagePublisher>
+    <RegisteredPackagePublisher>CN=Máté</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-09T14:16:11.196</Modified>
+      <Modified>2025-03-12T15:13:40.051</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-03-09T14:13:06.524</Modified>
+      <Modified>2025-03-12T14:49:20.781</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp2.runtimeconfig.json">
       <PackagePath>MauiApp2.runtimeconfig.json</PackagePath>
-      <Modified>2025-03-09T14:13:06.342</Modified>
+      <Modified>2025-03-12T14:49:20.610</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp2.dll">
       <PackagePath>MauiApp2.dll</PackagePath>
-      <Modified>2025-03-09T14:16:11.036</Modified>
+      <Modified>2025-03-12T15:13:39.873</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp2.exe</PackagePath>
-      <Modified>2025-03-09T14:16:11.038</Modified>
+      <Modified>2025-03-12T15:13:39.878</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -68,7 +68,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\wwwroot\css\site.css">
       <PackagePath>wwwroot\css\site.css</PackagePath>
-      <Modified>2025-03-09T14:11:26.855</Modified>
+      <Modified>2025-03-12T15:01:32.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\wwwroot\favicon.png">
       <PackagePath>wwwroot\favicon.png</PackagePath>
@@ -308,7 +308,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\MauiApp2.deps.json">
       <PackagePath>MauiApp2.deps.json</PackagePath>
-      <Modified>2025-03-09T14:13:06.252</Modified>
+      <Modified>2025-03-12T14:49:20.509</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Máté\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -664,7 +664,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\staticwebassets.build.endpoints.json">
       <PackagePath>MauiApp2.staticwebassets.endpoints.json</PackagePath>
-      <Modified>2025-03-09T14:12:45.399</Modified>
+      <Modified>2025-03-12T15:01:36.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Máté\.nuget\packages\microsoft.maui.controls.compatibility\8.0.100\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
