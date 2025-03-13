@@ -23,7 +23,6 @@ D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\s
 D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\staticwebassets\msbuild.buildMultiTargeting.MauiApp2.props
 D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\staticwebassets\msbuild.buildTransitive.MauiApp2.props
 D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\staticwebassets.pack.json
-D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\staticwebassets.upToDateCheck.txt
 D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\staticwebassets.publish.json
 D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\staticwebassets.publish.endpoints.json
 D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\_CompileBindingJava.FileList.txt
@@ -481,3 +480,4 @@ D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\s
 D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\stamp\_GenerateJavaStubs.stamp
 D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+D:\egyetem\Projektek\MauiApp2\ZHApplikacio\MauiApp2\obj\Release\net8.0-android\staticwebassets.upToDateCheck.txt

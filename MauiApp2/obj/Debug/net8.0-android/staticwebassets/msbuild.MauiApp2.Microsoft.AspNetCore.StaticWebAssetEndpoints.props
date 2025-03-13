@@ -76,13 +76,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MauiApp2.styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gbo2wks461"},{"Name":"integrity","Value":"sha256-nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ="},{"Name":"label","Value":"MauiApp2.styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5650"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 14:11:26 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5650"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 15:35:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="MauiApp2.styles.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MauiApp2.styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5650"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 14:11:26 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5650"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022nJcDaUz9rzQjSFyTyiYRzJCfO4VSwT42JeHV/F8dNZQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 12 Mar 2025 15:35:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9FC6A423-2F27-4169-AD8E-1A02D25D5085}|MauiApp2\\MauiApp2.csproj|d:\\egyetem\\projektek\\mauiapp2\\zhapplikacio\\mauiapp2\\components\\pages\\zhlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9FC6A423-2F27-4169-AD8E-1A02D25D5085}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\components\\pages\\zhlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9FC6A423-2F27-4169-AD8E-1A02D25D5085}|MauiApp2\\MauiApp2.csproj|d:\\egyetem\\projektek\\mauiapp2\\zhapplikacio\\mauiapp2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9FC6A423-2F27-4169-AD8E-1A02D25D5085}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9FC6A423-2F27-4169-AD8E-1A02D25D5085}|MauiApp2\\MauiApp2.csproj|d:\\egyetem\\projektek\\mauiapp2\\zhapplikacio\\mauiapp2\\components\\pages\\hozzaadas.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{9FC6A423-2F27-4169-AD8E-1A02D25D5085}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FC6A423-2F27-4169-AD8E-1A02D25D5085}|MauiApp2\\MauiApp2.csproj|d:\\egyetem\\projektek\\mauiapp2\\zhapplikacio\\mauiapp2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{9FC6A423-2F27-4169-AD8E-1A02D25D5085}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{9FC6A423-2F27-4169-AD8E-1A02D25D5085}|MauiApp2\\MauiApp2.csproj|d:\\egyetem\\projektek\\mauiapp2\\zhapplikacio\\mauiapp2\\components\\pages\\zhlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9FC6A423-2F27-4169-AD8E-1A02D25D5085}|MauiApp2\\MauiApp2.csproj|solutionrelative:mauiapp2\\components\\pages\\zhlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,6 +29,10 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4c6a820c-6b64-3d43-8d5e-1c2cc7b5e916}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Home.razor",
@@ -36,7 +40,7 @@
               "RelativeDocumentMoniker": "MauiApp2\\Components\\Pages\\Home.razor",
               "ToolTip": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\Components\\Pages\\Home.razor",
               "RelativeToolTip": "MauiApp2\\Components\\Pages\\Home.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-12T14:50:41.096Z",
               "EditorCaption": ""
@@ -49,14 +53,14 @@
               "RelativeDocumentMoniker": "MauiApp2\\Components\\Pages\\Hozzaadas.razor",
               "ToolTip": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\Components\\Pages\\Hozzaadas.razor",
               "RelativeToolTip": "MauiApp2\\Components\\Pages\\Hozzaadas.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-12T14:50:41.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "site.css",
               "DocumentMoniker": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "MauiApp2\\wwwroot\\css\\site.css",
@@ -69,13 +73,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "ZhList.razor",
               "DocumentMoniker": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\Components\\Pages\\ZhList.razor",
               "RelativeDocumentMoniker": "MauiApp2\\Components\\Pages\\ZhList.razor",
               "ToolTip": "D:\\egyetem\\Projektek\\MauiApp2\\ZHApplikacio\\MauiApp2\\Components\\Pages\\ZhList.razor",
               "RelativeToolTip": "MauiApp2\\Components\\Pages\\ZhList.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-12T14:46:52.275Z",
               "EditorCaption": ""
